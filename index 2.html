@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portofolio Thalitha Shifa Aurellia</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background: #222;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #fa118d, #fa118d);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #2196f3;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* ABOUT */
+        .section {
+            padding: 60px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        /* PORTFOLIO */
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .card-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* CONTACT */
+        .contact {
+            background: #fd2c6e;
+            color: white;
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        .contact a {
+            color: #060606;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #fd2c6e;
+            color: #0f0e0e;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            .portfolio {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 45px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Saya</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <h2>🎀Halo, Saya Thalitha Shifa Aurellia🎀</h2>
+
+        <p>
+            Selamat datang di website portofolio sederhana saya.
+            ✩°｡🧸𓏲⋆.🧺𖦹 ₊
+        </p>
+
+        <a href="#portfolio" class="btn">
+            Lihat Portofolio
+        </a>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <h2>Tentang Saya</h2>
+           <br> <img src="fotocantik.jpg" Foto Profil" width="150" height="180" align="center"><br/>
+                <br><br/>
+            
+            <p>Halo, saya Thalitha Shifa Aurellia, mahasiswi Universitas Dian Nuswantoro. Saya masih belajar di bidang teknologi dan belum memiliki keahlian khusus dalam pengembangan web, tetapi saya senang mencoba hal-hal baru dan belajar dari pengalaman.</p>
+            <p>Salah satu project yang pernah saya kerjakan adalah beautysharing.id, sebuah website yang saya kelola sebagai media berbagi informasi seputar kecantikan dan lifestyle. Dari project ini, saya mulai mengenal bagaimana sebuah website dikelola, bagaimana informasi disusun agar mudah dipahami, serta bagaimana sebuah website dapat dikembangkan dan ditemukan oleh pengguna melalui mesin pencari.</p>
+            <br><p>Saya ingin terus keluar dari zona nyaman dan mengembangkan kemampuan di dunia teknologi. Ke depannya, saya tertarik untuk membangun karier sebagai Data Analyst karena saya ingin belajar lebih dalam tentang data dan bagaimana data dapat digunakan untuk menghasilkan informasi yang bermanfaat. Bagi saya, setiap project yang saya kerjakan adalah langkah kecil untuk menambah pengalaman dan mendekatkan diri pada tujuan tersebut.</p><br/>
+            <p>Halaman web ini dibuat menggunakan HTML5 murni tanpa menggunakan CSS untuk memenuhi instruksi pembuatan struktur dasar web. Dalam pembuatan halaman ini, saya menggunakan berbagai tag HTML untuk menyusun struktur dan menampilkan informasi. Saya juga mempelajari fungsi dari setiap tag agar dapat digunakan sesuai dengan kebutuhan halaman web. Pembuatan halaman ini menjadi salah satu latihan untuk memahami dasar-dasar pengembangan web.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section class="section" id="portfolio">
+
+        <div class="section-title">
+
+            <h2>Portofolio</h2>
+
+            <p><b>BeautySharing.id</b> merupakan salah satu project website yang saya kelola dan kembangkan dengan fokus pada konten beauty, lifestyle, serta informasi yang relevan bagi pengunjung.</p>
+            <p>Dalam project ini, saya terlibat dalam proses pengembangan dan pengelolaan website, mulai dari menyiapkan struktur halaman, mengatur tampilan website, mengelola konten, hingga melakukan optimasi dasar agar website dapat memberikan pengalaman yang nyaman bagi pengguna.            
+            </p>
+
+        </div>
+
+
+        <div class="portfolio">
+
+            <!-- PROJECT 1 -->
+            <div class="card">
+
+                <img
+                    src="portofolio3.png?auto=format&fit=crop&w=800&q=80"
+                    alt="Analisis Trafik Website Pribadi">
+
+                <div class="card-content">
+
+                    <h3>💻Analisis Trafik Website</h3>
+
+                    <p>
+                        Kontrol GSC (Google Search Console) berfungsi sebagai alat gratis dari Google untuk memantau, mengelola, dan mengoptimalkan kehadiran situs web Anda di hasil pencarian Google.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="card">
+
+                <img
+                    src="portofolio 1.png?auto=format&fit=crop&w=800&q=80"
+                    alt="Project Instalasi Website">
+
+                <div class="card-content">
+
+                    <h3>🌐Instalasi CMS Melalui Cpanel</h3>
+
+                    <p>
+                        Memasang platform seperti WordPress atau Joomla secara instan menggunakan one-click installer.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+            <div class="card">
+
+                <img
+                    src="portofolio web desain.png?auto=format&fit=crop&w=800&q=80"
+                    alt="Project Design">
+
+                <div class="card-content">
+
+                    <h3>🎨Desain Website</h3>
+
+                    <p>
+                        Desain antarmuka website dengan tampilan sederhana,
+                        modern, dan mudah digunakan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="section-title">
+
+            <h2>📧 Kontak</h2>
+
+            <p>
+                Silakan hubungi saya untuk informasi lebih lanjut.
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:thalithashifaaurellia@gmail.com">
+                    thalithashifaaurellia@gmail.com
+                </a>
+            </p>
+<p> Sharing beauty and lifestyle sama aku yuk
+    <a href="https://beautysharing.id">www.beautysharing.id</a>
+</p>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Portofolio Saya. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
